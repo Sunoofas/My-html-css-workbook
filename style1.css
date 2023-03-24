@@ -1,0 +1,29 @@
+/*id is selected by using #tag*/
+
+#veg1{
+    background-color: red;
+}
+
+#veg2{
+    background-color: aquamarine;
+}
+
+#veg3{
+    background-color: greenyellow;
+}
+
+#fruit1{
+    background-color: yellowgreen;
+}
+
+#fruit2{
+    background-color: pink;
+}
+
+#fruit3{
+    background-color: burlywood;
+}
+
+#fruit4{
+    background-color: brown;
+}

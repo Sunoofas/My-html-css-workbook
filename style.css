@@ -1,0 +1,64 @@
+body{
+   /* background-color: hsla(285, 100%, 50%,0.5);*/
+
+   /*putting background image using url,linear gradient*/
+
+   background-image: url(meditate.lnk);
+  
+    background-repeat: no-repeat;
+    background-size: 100%; 
+
+    background-attachment: fixed;
+}
+h1{
+    color:#424ead;
+}
+p{
+    color: chartreuse;
+    
+}
+table{
+    border: 1px solid red;
+/* deleting the gap between the border*/
+    border-collapse: collapse;
+    background-color: rosybrown;
+}
+/*alignng the heading and data of table into center*/
+
+th,td{
+    text-align: center;
+    /*padding- table data must be within the top and bottom border of box*/
+    padding: 10px;
+}
+th{
+    background-color: seagreen;
+    color: white;
+}
+caption{
+    font-weight: bold;
+}
+/*deleting the underline from google,facebook and contact us using a:link*/
+a:link{
+    text-decoration: none;
+}
+/*color changing when pointing to google, facebook and contact us page using hovering*/
+a:hover{
+    color: red;
+}
+
+/*inorder to style a class use . before that*/
+
+.vegetable{
+    background-color: green;
+}
+
+.fruit{
+    
+    background-color: orange;
+}
+
+/*multilevel class eg: organic class in vegetable*/
+.organic{
+    color: white;
+    text-align: center;
+}
